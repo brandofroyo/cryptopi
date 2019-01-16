@@ -1,0 +1,127 @@
+\hypertarget{classclient__gdax}{}\section{client\+\_\+gdax Class Reference}
+\label{classclient__gdax}\index{client\+\_\+gdax@{client\+\_\+gdax}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classclient__gdax_a1e4d7c2f08a89acabecc0a7ac1e2ae50}\label{classclient__gdax_a1e4d7c2f08a89acabecc0a7ac1e2ae50}} 
+{\bfseries client\+\_\+gdax} (std\+::string key, std\+::string secret, std\+::string passphrase)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a202eea2735b0d2c98c859e2bd9e6e584}\label{classclient__gdax_a202eea2735b0d2c98c859e2bd9e6e584}} 
+std\+::string {\bfseries sign\+\_\+data} (const char $\ast$data, std\+::size\+\_\+t data\+\_\+size, std\+::string my\+\_\+key)
+\item 
+\mbox{\Hypertarget{classclient__gdax_aac03123e9a85dd08d56ffb94e0f90811}\label{classclient__gdax_aac03123e9a85dd08d56ffb94e0f90811}} 
+std\+::string {\bfseries return\+Trade\+History} (\mbox{\hyperlink{structmkt__symbol}{mkt\+\_\+symbol}} currency\+Pair)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a584e3c9f8da2dd4c90c7111bc9d88e17}\label{classclient__gdax_a584e3c9f8da2dd4c90c7111bc9d88e17}} 
+std\+::string {\bfseries return\+Available\+Account\+Balances} ()
+\item 
+\mbox{\Hypertarget{classclient__gdax_a8983b5020b86571b40e1165facab03cd}\label{classclient__gdax_a8983b5020b86571b40e1165facab03cd}} 
+int {\bfseries return\+Order\+Trades\+\_\+vec} (\mbox{\hyperlink{structorder}{order}} \&o1, std\+::string \&err\+\_\+str, std\+::string input\+\_\+str=\char`\"{}-\/99\char`\"{})
+\item 
+\mbox{\Hypertarget{classclient__gdax_a0e1fe01089c66788d95db9bda0d6fde4}\label{classclient__gdax_a0e1fe01089c66788d95db9bda0d6fde4}} 
+std\+::string {\bfseries move} (\mbox{\hyperlink{structorder}{order}} \&o1, double price, double amount=0)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a59642a0c813e5c25e103e6b9c0c4402d}\label{classclient__gdax_a59642a0c813e5c25e103e6b9c0c4402d}} 
+int {\bfseries move\+\_\+vec} (\mbox{\hyperlink{structorder}{order}} \&o1, \mbox{\hyperlink{structorder}{order}} \&new\+\_\+order, double price, std\+::string \&err\+\_\+str, double amount=-\/99, std\+::string input\+\_\+str=\char`\"{}-\/99\char`\"{})
+\item 
+\mbox{\Hypertarget{classclient__gdax_aa0476039a3b2f149452aecae545174f1}\label{classclient__gdax_aa0476039a3b2f149452aecae545174f1}} 
+int {\bfseries get\+Base64} (const std\+::string \&content, std\+::string \&encoded)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a0bc53d1588520768f5e63ecf93b66c78}\label{classclient__gdax_a0bc53d1588520768f5e63ecf93b66c78}} 
+std\+::string {\bfseries return\+Open\+Orders} (std\+::string str1)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a9395e877baf8c69343e9b9e6792bc403}\label{classclient__gdax_a9395e877baf8c69343e9b9e6792bc403}} 
+int {\bfseries Dorequest} (const std\+::string \&Url\+End\+Point, const std\+::string \&body, std\+::string \&result, const std\+::string \&method, const std\+::string \&request\+\_\+path)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a2ae55cb58430803493b370cf73fb8089}\label{classclient__gdax_a2ae55cb58430803493b370cf73fb8089}} 
+std\+::string {\bfseries make\+\_\+gdax\+\_\+sym} (\mbox{\hyperlink{structmkt__symbol}{mkt\+\_\+symbol}} m)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a0f3e334bbaebc75cf56f27cf7783f999}\label{classclient__gdax_a0f3e334bbaebc75cf56f27cf7783f999}} 
+int {\bfseries Decode\+Base64} (const std\+::string \&encoded, std\+::string \&decoded)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a37776491211b838c1ad158a175080020}\label{classclient__gdax_a37776491211b838c1ad158a175080020}} 
+int {\bfseries get\+Hmac\+Sha256} (const std\+::string \&key, const std\+::string \&content, std\+::string \&digest)
+\item 
+\mbox{\Hypertarget{classclient__gdax_aef2b4a68ce70c604a29c57496f129741}\label{classclient__gdax_aef2b4a68ce70c604a29c57496f129741}} 
+std\+::string {\bfseries cancel\+Order} (std\+::string ordernum)
+\item 
+\mbox{\Hypertarget{classclient__gdax_ac15410e231beae59a576d82095ddfe71}\label{classclient__gdax_ac15410e231beae59a576d82095ddfe71}} 
+std\+::string {\bfseries Generate\+Check\+Sum} (const char $\ast$buf, long buf\+Len)
+\item 
+\mbox{\Hypertarget{classclient__gdax_adf9a3134a5e5835a1a2993889253cece}\label{classclient__gdax_adf9a3134a5e5835a1a2993889253cece}} 
+std\+::string {\bfseries gettime} ()
+\item 
+\mbox{\Hypertarget{classclient__gdax_a27e0b53b9b8a18b6c898f2ae09d1c383}\label{classclient__gdax_a27e0b53b9b8a18b6c898f2ae09d1c383}} 
+std\+::string {\bfseries make\+\_\+fix} (std\+::vector$<$ \mbox{\hyperlink{structf__data}{f\+\_\+data}} $>$ x)
+\item 
+\mbox{\Hypertarget{classclient__gdax_ac99bed19bf6b219dddb3f8b53d4a87ac}\label{classclient__gdax_ac99bed19bf6b219dddb3f8b53d4a87ac}} 
+const std\+::vector$<$ uint8\+\_\+t $>$ {\bfseries sha256} (const std\+::vector$<$ uint8\+\_\+t $>$ \&key, const std\+::vector$<$ uint8\+\_\+t $>$ \&value)
+\item 
+\mbox{\Hypertarget{classclient__gdax_af3ecf2ad12ca9855a4f076c81c37c7fe}\label{classclient__gdax_af3ecf2ad12ca9855a4f076c81c37c7fe}} 
+std\+::string {\bfseries return\+Order\+Trades} (std\+::string ordernum)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a23b8769e187a810399bb856633e9c8bc}\label{classclient__gdax_a23b8769e187a810399bb856633e9c8bc}} 
+int {\bfseries place\+\_\+order} (\mbox{\hyperlink{structmkt__symbol}{mkt\+\_\+symbol}} symbol, bool isbuy, double price, double quant, \mbox{\hyperlink{structorder}{order}} \&o1, std\+::string \&errstr, std\+::string type\+\_\+order=\char`\"{}exchange limit\char`\"{}, std\+::string input\+\_\+string=\char`\"{}-\/99\char`\"{})
+\item 
+\mbox{\Hypertarget{classclient__gdax_a7caed201b1416de52ccaeab55ab3f6e2}\label{classclient__gdax_a7caed201b1416de52ccaeab55ab3f6e2}} 
+std\+::string {\bfseries get\+\_\+book\+\_\+info} (\mbox{\hyperlink{structmkt__symbol}{mkt\+\_\+symbol}} symbol, int level)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a314ec11641d65d5a527f181103d65f44}\label{classclient__gdax_a314ec11641d65d5a527f181103d65f44}} 
+double {\bfseries get\+\_\+volume\+\_\+info} (std\+::string x)
+\item 
+\mbox{\Hypertarget{classclient__gdax_a7f2155ab8f30e4cb0c15becc689bc78f}\label{classclient__gdax_a7f2155ab8f30e4cb0c15becc689bc78f}} 
+double {\bfseries get\+\_\+price\+\_\+info} (std\+::string x)
+\item 
+\mbox{\Hypertarget{classclient__gdax_af4d5e2613843e2e2cd074620209389e9}\label{classclient__gdax_af4d5e2613843e2e2cd074620209389e9}} 
+int {\bfseries do\+\_\+public\+\_\+request} (const std\+::string \&Url\+End\+Point, std\+::string \&result, const std\+::string \&request\+\_\+path)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static size\+\_\+t \mbox{\hyperlink{classclient__gdax_aa0cc262133e3443dcf8c0fcbd87a2310}{Write\+Callback}} (void $\ast$contents, size\+\_\+t size, size\+\_\+t nmemb, void $\ast$userp)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classclient__gdax_a60857594693d3a1981e4ce15cefed569}\label{classclient__gdax_a60857594693d3a1981e4ce15cefed569}} 
+std\+::string {\bfseries A\+P\+Iurl}
+\item 
+\mbox{\Hypertarget{classclient__gdax_af601c54ba12e81a658e6c1ba4b372ce5}\label{classclient__gdax_af601c54ba12e81a658e6c1ba4b372ce5}} 
+std\+::string {\bfseries key}
+\item 
+\mbox{\Hypertarget{classclient__gdax_a30b02f0cf95ccec98ec21c559121a75d}\label{classclient__gdax_a30b02f0cf95ccec98ec21c559121a75d}} 
+std\+::string {\bfseries secret}
+\item 
+\mbox{\Hypertarget{classclient__gdax_ae8e3321863bea122cb084a9f7ee73521}\label{classclient__gdax_ae8e3321863bea122cb084a9f7ee73521}} 
+std\+::string {\bfseries passphrase}
+\item 
+\mbox{\Hypertarget{classclient__gdax_a6e34720dadbd37c9345eabb1a6496992}\label{classclient__gdax_a6e34720dadbd37c9345eabb1a6496992}} 
+C\+U\+RL $\ast$ {\bfseries curl}
+\item 
+\mbox{\Hypertarget{classclient__gdax_a1bde11c3d715935718e0c96cf5a440eb}\label{classclient__gdax_a1bde11c3d715935718e0c96cf5a440eb}} 
+C\+U\+R\+Lcode {\bfseries res}
+\item 
+\mbox{\Hypertarget{classclient__gdax_accc59af2c0246dbe6bfbba3df019de64}\label{classclient__gdax_accc59af2c0246dbe6bfbba3df019de64}} 
+std\+::map$<$ \mbox{\hyperlink{structmkt__symbol}{mkt\+\_\+symbol}}, std\+::string $>$ {\bfseries trade\+\_\+hist\+\_\+pagination}
+\item 
+\mbox{\Hypertarget{classclient__gdax_ae6071ed094235716d66c8f73d8af75e1}\label{classclient__gdax_ae6071ed094235716d66c8f73d8af75e1}} 
+std\+::string {\bfseries fills\+\_\+last\+\_\+id}
+\item 
+\mbox{\Hypertarget{classclient__gdax_a1d081b59e6acf48a7ffda9fccdb8c5cc}\label{classclient__gdax_a1d081b59e6acf48a7ffda9fccdb8c5cc}} 
+bool {\bfseries use\+\_\+\+R\+E\+ST}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classclient__gdax_aa0cc262133e3443dcf8c0fcbd87a2310}\label{classclient__gdax_aa0cc262133e3443dcf8c0fcbd87a2310}} 
+\index{client\+\_\+gdax@{client\+\_\+gdax}!Write\+Callback@{Write\+Callback}}
+\index{Write\+Callback@{Write\+Callback}!client\+\_\+gdax@{client\+\_\+gdax}}
+\subsubsection{\texorpdfstring{Write\+Callback()}{WriteCallback()}}
+{\footnotesize\ttfamily In this case $\ast$userp will point to result size\+\_\+t client\+\_\+gdax\+::\+Write\+Callback (\begin{DoxyParamCaption}\item[{void $\ast$}]{contents,  }\item[{size\+\_\+t}]{size,  }\item[{size\+\_\+t}]{nmemb,  }\item[{void $\ast$}]{userp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Curl write callback function. Appends fetched $\ast$content to $\ast$userp pointer. / $\ast$userp pointer is set up by curl\+\_\+easy\+\_\+setopt(curl, C\+U\+R\+L\+O\+P\+T\+\_\+\+W\+R\+I\+T\+E\+D\+A\+T\+A, \&result) line. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+client\+\_\+gdax.\+h\item 
+client\+\_\+gdax.\+cpp\end{DoxyCompactItemize}

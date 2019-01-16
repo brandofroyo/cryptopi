@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/brandon/test4/TradePair.cpp
+TradePair.h
+/home/brandon/test4/TradePair.h
+
+/home/brandon/test4/TradePair.h
+iostream
+-
+libbittrex/client.h
+-
+
+/home/brandon/test4/brandon.cpp
+iostream
+-
+vector
+-
+libbittrex/client.h
+-
+boost/test/included/unit_test.hpp
+-
+TradePair.cpp
+/home/brandon/test4/TradePair.cpp
+

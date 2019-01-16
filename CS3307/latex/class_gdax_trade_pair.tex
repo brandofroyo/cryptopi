@@ -1,0 +1,130 @@
+\hypertarget{class_gdax_trade_pair}{}\section{Gdax\+Trade\+Pair Class Reference}
+\label{class_gdax_trade_pair}\index{Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_gdax_trade_pair_acf77c357616ceb25a568f6dc8196aee5}\label{class_gdax_trade_pair_acf77c357616ceb25a568f6dc8196aee5}} 
+\mbox{\hyperlink{class_gdax_trade_pair_acf77c357616ceb25a568f6dc8196aee5}{Gdax\+Trade\+Pair}} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_gdax_trade_pair_a72fe524fa389f64179a595e9e90fc5fc}\label{class_gdax_trade_pair_a72fe524fa389f64179a595e9e90fc5fc}} 
+\mbox{\hyperlink{class_gdax_trade_pair_a72fe524fa389f64179a595e9e90fc5fc}{$\sim$\+Gdax\+Trade\+Pair}} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_gdax_trade_pair_ac67b487345149920a4631b3b2517033f}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em returns the price pair name \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_gdax_trade_pair_ad7799585f8c7e06792da997cc53966b5}{fetch\+Volume}} ()
+\item 
+double \mbox{\hyperlink{class_gdax_trade_pair_ab4bc3b56207898507dd1ea0b2a4d3954}{fetch\+Volume\+Change}} ()
+\begin{DoxyCompactList}\small\item\em returns the volume change \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_gdax_trade_pair_ac1690b5bfce51854585ea1c9288250e6}{get\+Volume}} ()
+\begin{DoxyCompactList}\small\item\em returns the volume \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_gdax_trade_pair_ac9fb00c66634690b9fbb5f2f4a457820}{set\+Volume}} (double vol)
+\begin{DoxyCompactList}\small\item\em sets the volume \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_gdax_trade_pair_adacd391af9a85002ae707c374a1ad17c}{fetch\+Price}} ()
+\begin{DoxyCompactList}\small\item\em very similar to the fetch volume except it gets the price \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_gdax_trade_pair_af6c2de9262607777c2fc22d25b700fc6}{fetch\+Price\+Change}} ()
+\begin{DoxyCompactList}\small\item\em returns the price change \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_gdax_trade_pair_aaec623f9a4d7cb24ee924aa999bfc94a}{get\+Price}} ()
+\begin{DoxyCompactList}\small\item\em returns price \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_gdax_trade_pair_ad4e2b464d846c9800ea5f53f6cbdf4ba}{set\+Price}} (double pri)
+\begin{DoxyCompactList}\small\item\em sets price \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_gdax_trade_pair_a9cd15a913e928287eb77e4cb52c8b6cc}\label{class_gdax_trade_pair_a9cd15a913e928287eb77e4cb52c8b6cc}} 
+std\+::ostream \& \mbox{\hyperlink{class_gdax_trade_pair_a9cd15a913e928287eb77e4cb52c8b6cc}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_gdax_trade_pair}{Gdax\+Trade\+Pair}} \&vp)
+\begin{DoxyCompactList}\small\item\em simple function to return output as an ostream \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_gdax_trade_pair_adacd391af9a85002ae707c374a1ad17c}\label{class_gdax_trade_pair_adacd391af9a85002ae707c374a1ad17c}} 
+\index{Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}!fetch\+Price@{fetch\+Price}}
+\index{fetch\+Price@{fetch\+Price}!Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{fetch\+Price()}{fetchPrice()}}
+{\footnotesize\ttfamily double Gdax\+Trade\+Pair\+::fetch\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+very similar to the fetch volume except it gets the price 
+
+this function creats a fdax object then uses that object to fetch the price after that is done the volume is returned. key secret and pass phrase are not used by us since we arnt trying to have people trade, however we still need them to create a class object \mbox{\Hypertarget{class_gdax_trade_pair_af6c2de9262607777c2fc22d25b700fc6}\label{class_gdax_trade_pair_af6c2de9262607777c2fc22d25b700fc6}} 
+\index{Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}!fetch\+Price\+Change@{fetch\+Price\+Change}}
+\index{fetch\+Price\+Change@{fetch\+Price\+Change}!Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{fetch\+Price\+Change()}{fetchPriceChange()}}
+{\footnotesize\ttfamily double Gdax\+Trade\+Pair\+::fetch\+Price\+Change (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the price change 
+
+does the same as fetch volume change except for price \mbox{\Hypertarget{class_gdax_trade_pair_ad7799585f8c7e06792da997cc53966b5}\label{class_gdax_trade_pair_ad7799585f8c7e06792da997cc53966b5}} 
+\index{Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}!fetch\+Volume@{fetch\+Volume}}
+\index{fetch\+Volume@{fetch\+Volume}!Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{fetch\+Volume()}{fetchVolume()}}
+{\footnotesize\ttfamily double Gdax\+Trade\+Pair\+::fetch\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+this function creats a fdax object then uses that object to fetch the volume after that is done the volume is returned. key secret and pass phrase are not used by us since we arnt trying to have people trade, however we still need them to create a class object \mbox{\Hypertarget{class_gdax_trade_pair_ab4bc3b56207898507dd1ea0b2a4d3954}\label{class_gdax_trade_pair_ab4bc3b56207898507dd1ea0b2a4d3954}} 
+\index{Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}!fetch\+Volume\+Change@{fetch\+Volume\+Change}}
+\index{fetch\+Volume\+Change@{fetch\+Volume\+Change}!Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{fetch\+Volume\+Change()}{fetchVolumeChange()}}
+{\footnotesize\ttfamily double Gdax\+Trade\+Pair\+::fetch\+Volume\+Change (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the volume change 
+
+gets a new volume then divides by old volume to get price change \mbox{\Hypertarget{class_gdax_trade_pair_ac67b487345149920a4631b3b2517033f}\label{class_gdax_trade_pair_ac67b487345149920a4631b3b2517033f}} 
+\index{Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily std\+::string Gdax\+Trade\+Pair\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the price pair name 
+
+this function will return the name \mbox{\Hypertarget{class_gdax_trade_pair_aaec623f9a4d7cb24ee924aa999bfc94a}\label{class_gdax_trade_pair_aaec623f9a4d7cb24ee924aa999bfc94a}} 
+\index{Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}!get\+Price@{get\+Price}}
+\index{get\+Price@{get\+Price}!Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{get\+Price()}{getPrice()}}
+{\footnotesize\ttfamily double Gdax\+Trade\+Pair\+::get\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns price 
+
+returns the price \mbox{\Hypertarget{class_gdax_trade_pair_ac1690b5bfce51854585ea1c9288250e6}\label{class_gdax_trade_pair_ac1690b5bfce51854585ea1c9288250e6}} 
+\index{Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}!get\+Volume@{get\+Volume}}
+\index{get\+Volume@{get\+Volume}!Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{get\+Volume()}{getVolume()}}
+{\footnotesize\ttfamily double Gdax\+Trade\+Pair\+::get\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the volume 
+
+this function will return volume \mbox{\Hypertarget{class_gdax_trade_pair_ad4e2b464d846c9800ea5f53f6cbdf4ba}\label{class_gdax_trade_pair_ad4e2b464d846c9800ea5f53f6cbdf4ba}} 
+\index{Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}!set\+Price@{set\+Price}}
+\index{set\+Price@{set\+Price}!Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{set\+Price()}{setPrice()}}
+{\footnotesize\ttfamily void Gdax\+Trade\+Pair\+::set\+Price (\begin{DoxyParamCaption}\item[{double}]{pri }\end{DoxyParamCaption})}
+
+
+
+sets price 
+
+sets the price \mbox{\Hypertarget{class_gdax_trade_pair_ac9fb00c66634690b9fbb5f2f4a457820}\label{class_gdax_trade_pair_ac9fb00c66634690b9fbb5f2f4a457820}} 
+\index{Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}!set\+Volume@{set\+Volume}}
+\index{set\+Volume@{set\+Volume}!Gdax\+Trade\+Pair@{Gdax\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{set\+Volume()}{setVolume()}}
+{\footnotesize\ttfamily void Gdax\+Trade\+Pair\+::set\+Volume (\begin{DoxyParamCaption}\item[{double}]{vol }\end{DoxyParamCaption})}
+
+
+
+sets the volume 
+
+this function will set the volume 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Gdax\+Trade\+Pair.\+h\item 
+Gdax\+Trade\+Pair.\+cpp\end{DoxyCompactItemize}

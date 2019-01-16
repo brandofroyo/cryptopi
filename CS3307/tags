@@ -1,0 +1,148 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APIurl	client_gdax.h	87;"	m	class:client_gdax	access:public
+BitfinexTradePair	BitfinexTradePair.h	11;"	c
+BitfinexTradePair	BitfinexTradePair.h	18;"	p	class:BitfinexTradePair	access:public
+BittrexTradePair	BittrexTradePair.h	13;"	p	class:BittrexTradePair	access:public
+BittrexTradePair	BittrexTradePair.h	6;"	c
+CryptoPiMain	main.cpp	20;"	c	file:	inherits:WApplication
+CryptoPiMain	main.cpp	24;"	p	class:CryptoPiMain	file:	access:public
+DecodeBase64	client_gdax.h	115;"	p	class:client_gdax	access:public
+Dorequest	client_gdax.h	111;"	p	class:client_gdax	access:public
+GdaxTradePair	GdaxTradePair.h	15;"	p	class:GdaxTradePair	access:public
+GdaxTradePair	GdaxTradePair.h	8;"	c
+GenerateCheckSum	client_gdax.h	119;"	p	class:client_gdax	access:public
+TradePair	TradePair.h	10;"	c
+TradePair	TradePair.h	19;"	p	class:TradePair	access:public
+WriteCallback	client_gdax.h	121;"	p	class:client_gdax	access:public
+addToMonitor	main.cpp	25;"	p	class:CryptoPiMain	file:	access:public
+avg_trade_price	client_gdax.h	57;"	m	struct:order	access:public
+base	client_gdax.h	29;"	m	struct:mkt_symbol	access:public
+base64_chars	client_gdax.cpp	111;"	v	file:
+bitfinCheck_	main.cpp	38;"	m	class:CryptoPiMain	file:	access:private
+bitfinexPair_	TradePair.h	15;"	m	class:TradePair	access:private
+bitrexPair_	TradePair.h	14;"	m	class:TradePair	access:private
+bittrexCheck_	main.cpp	37;"	m	class:CryptoPiMain	file:	access:private
+cancelOrder	client_gdax.h	117;"	p	class:client_gdax	access:public
+checkBitfinex_	TradePair.h	17;"	m	class:TradePair	access:private
+checkBitrex_	TradePair.h	17;"	m	class:TradePair	access:private
+checkGdax_	TradePair.h	17;"	m	class:TradePair	access:private
+client_gdax	client_gdax.h	85;"	c
+client_gdax	client_gdax.h	94;"	p	class:client_gdax	access:public
+client_gdax	client_gdax.h	95;"	p	class:client_gdax	access:public
+cryptoInfo_	main.cpp	33;"	m	class:CryptoPiMain	file:	access:private
+curl	client_gdax.h	91;"	m	class:client_gdax	access:public
+currency	client_gdax.h	28;"	m	struct:mkt_symbol	access:public
+do_public_request	client_gdax.h	133;"	p	class:client_gdax	access:public
+exchange	client_gdax.h	30;"	m	struct:mkt_symbol	access:public
+extra1	client_gdax.h	59;"	m	struct:order	access:public
+f_data	client_gdax.h	72;"	s
+fee	client_gdax.h	63;"	m	struct:order	access:public
+fetchPrice	BitfinexTradePair.h	41;"	p	class:BitfinexTradePair	access:public
+fetchPrice	BittrexTradePair.h	32;"	p	class:BittrexTradePair	access:public
+fetchPrice	GdaxTradePair.h	34;"	p	class:GdaxTradePair	access:public
+fetchPriceChange	BitfinexTradePair.h	43;"	p	class:BitfinexTradePair	access:public
+fetchPriceChange	BittrexTradePair.h	34;"	p	class:BittrexTradePair	access:public
+fetchPriceChange	GdaxTradePair.h	36;"	p	class:GdaxTradePair	access:public
+fetchVolume	BitfinexTradePair.h	30;"	p	class:BitfinexTradePair	access:public
+fetchVolume	BittrexTradePair.h	22;"	p	class:BittrexTradePair	access:public
+fetchVolume	GdaxTradePair.h	23;"	p	class:GdaxTradePair	access:public
+fetchVolumeChange	BitfinexTradePair.h	32;"	p	class:BitfinexTradePair	access:public
+fetchVolumeChange	BittrexTradePair.h	24;"	p	class:BittrexTradePair	access:public
+fetchVolumeChange	GdaxTradePair.h	25;"	p	class:GdaxTradePair	access:public
+fills_last_id	client_gdax.h	110;"	m	class:client_gdax	access:public
+gdaxCheck_	main.cpp	39;"	m	class:CryptoPiMain	file:	access:private
+gdaxPair_	TradePair.h	16;"	m	class:TradePair	access:private
+getBase64	client_gdax.h	108;"	p	class:client_gdax	access:public
+getHmacSha256	client_gdax.h	116;"	p	class:client_gdax	access:public
+getName	BitfinexTradePair.h	25;"	p	class:BitfinexTradePair	access:public
+getName	BittrexTradePair.h	16;"	p	class:BittrexTradePair	access:public
+getName	GdaxTradePair.h	18;"	p	class:GdaxTradePair	access:public
+getName	TradePair.h	22;"	p	class:TradePair	access:public
+getPrice	BitfinexTradePair.h	45;"	p	class:BitfinexTradePair	access:public
+getPrice	BittrexTradePair.h	35;"	p	class:BittrexTradePair	access:public
+getPrice	GdaxTradePair.h	38;"	p	class:GdaxTradePair	access:public
+getPriceChanges	TradePair.h	29;"	p	class:TradePair	access:public
+getPrices	TradePair.h	30;"	p	class:TradePair	access:public
+getVolume	BitfinexTradePair.h	34;"	p	class:BitfinexTradePair	access:public
+getVolume	BittrexTradePair.h	25;"	p	class:BittrexTradePair	access:public
+getVolume	GdaxTradePair.h	27;"	p	class:GdaxTradePair	access:public
+getVolumeChanges	TradePair.h	25;"	p	class:TradePair	access:public
+getVolumes	TradePair.h	26;"	p	class:TradePair	access:public
+get_book_info	client_gdax.h	130;"	p	class:client_gdax	access:public
+get_price_info	client_gdax.h	132;"	p	class:client_gdax	access:public
+get_volume_info	client_gdax.h	131;"	p	class:client_gdax	access:public
+gettime	client_gdax.h	120;"	p	class:client_gdax	access:public
+interval_	main.cpp	34;"	m	class:CryptoPiMain	file:	access:private
+isbuy	client_gdax.h	55;"	m	struct:order	access:public
+key	client_gdax.h	88;"	m	class:client_gdax	access:public
+last_entry	client_gdax.h	58;"	m	struct:order	access:public
+m1	client_gdax.h	52;"	m	struct:order	access:public
+make_fix	client_gdax.h	122;"	p	class:client_gdax	access:public
+make_gdax_sym	client_gdax.h	114;"	p	class:client_gdax	access:public
+message	client_gdax.h	74;"	m	struct:f_data	access:public
+mkt_symbol	client_gdax.h	26;"	s
+move	client_gdax.h	104;"	p	class:client_gdax	access:public
+move_vec	client_gdax.h	105;"	p	class:client_gdax	access:public
+n	client_gdax.h	73;"	m	struct:f_data	access:public
+name_	BitfinexTradePair.h	14;"	m	class:BitfinexTradePair	access:private
+name_	BittrexTradePair.h	9;"	m	class:BittrexTradePair	access:private
+name_	GdaxTradePair.h	11;"	m	class:GdaxTradePair	access:private
+name_	TradePair.h	13;"	m	class:TradePair	access:private
+operator <<	BitfinexTradePair.h	49;"	p	class:BitfinexTradePair	access:friend
+operator <<	BittrexTradePair.h	38;"	p	class:BittrexTradePair	access:friend
+operator <<	GdaxTradePair.h	42;"	p	class:GdaxTradePair	access:friend
+order	client_gdax.h	51;"	s
+ordernum	client_gdax.h	56;"	m	struct:order	access:public
+pairConvert	BitfinexTradePair.h	23;"	p	class:BitfinexTradePair	access:public
+pairList_	main.cpp	32;"	m	class:CryptoPiMain	file:	access:private
+pairs_	main.cpp	40;"	m	class:CryptoPiMain	file:	access:private
+passphrase	client_gdax.h	90;"	m	class:client_gdax	access:public
+place_order	client_gdax.h	129;"	p	class:client_gdax	access:public
+price	client_gdax.h	53;"	m	struct:order	access:public
+price_	BitfinexTradePair.h	16;"	m	class:BitfinexTradePair	access:private
+price_	BittrexTradePair.h	11;"	m	class:BittrexTradePair	access:private
+price_	GdaxTradePair.h	13;"	m	class:GdaxTradePair	access:private
+quant	client_gdax.h	54;"	m	struct:order	access:public
+res	client_gdax.h	92;"	m	class:client_gdax	access:public
+resetTable	main.cpp	27;"	p	class:CryptoPiMain	file:	access:public
+returnAvailableAccountBalances	client_gdax.h	102;"	p	class:client_gdax	access:public
+returnOpenOrders	client_gdax.h	109;"	p	class:client_gdax	access:public
+returnOrderTrades	client_gdax.h	125;"	p	class:client_gdax	access:public
+returnOrderTrades_vec	client_gdax.h	103;"	p	class:client_gdax	access:public
+returnTradeHistory	client_gdax.h	99;"	p	class:client_gdax	access:public
+secret	client_gdax.h	89;"	m	class:client_gdax	access:public
+server_time	client_gdax.h	66;"	m	struct:order	access:public
+setPrice	BitfinexTradePair.h	47;"	p	class:BitfinexTradePair	access:public
+setPrice	BittrexTradePair.h	36;"	p	class:BittrexTradePair	access:public
+setPrice	GdaxTradePair.h	40;"	p	class:GdaxTradePair	access:public
+setVolume	BitfinexTradePair.h	36;"	p	class:BitfinexTradePair	access:public
+setVolume	BittrexTradePair.h	26;"	p	class:BittrexTradePair	access:public
+setVolume	GdaxTradePair.h	29;"	p	class:GdaxTradePair	access:public
+sha256	client_gdax.h	123;"	p	class:client_gdax	access:public
+sign_data	client_gdax.h	98;"	p	class:client_gdax	access:public
+stratnum	client_gdax.h	64;"	m	struct:order	access:public
+suspect_traded	client_gdax.h	60;"	m	struct:order	access:public
+table_	main.cpp	35;"	m	class:CryptoPiMain	file:	access:private
+time1	client_gdax.h	61;"	m	struct:order	access:public
+time_placed	client_gdax.h	62;"	m	struct:order	access:public
+timer_	main.cpp	36;"	m	class:CryptoPiMain	file:	access:private
+trade_amt	client_gdax.h	65;"	m	struct:order	access:public
+trade_hist_pagination	client_gdax.h	100;"	m	class:client_gdax	access:public
+updatePairs	main.cpp	28;"	p	class:CryptoPiMain	file:	access:public
+updatePrices	TradePair.h	28;"	p	class:TradePair	access:public
+updateTable	main.cpp	26;"	p	class:CryptoPiMain	file:	access:public
+updateVolumes	TradePair.h	24;"	p	class:TradePair	access:public
+use_REST	client_gdax.h	118;"	m	class:client_gdax	access:public
+volume_	BitfinexTradePair.h	15;"	m	class:BitfinexTradePair	access:private
+volume_	BittrexTradePair.h	10;"	m	class:BittrexTradePair	access:private
+volume_	GdaxTradePair.h	12;"	m	class:GdaxTradePair	access:private
+~BitfinexTradePair	BitfinexTradePair.h	19;"	p	class:BitfinexTradePair	access:public
+~BittrexTradePair	BittrexTradePair.h	14;"	p	class:BittrexTradePair	access:public
+~GdaxTradePair	GdaxTradePair.h	16;"	p	class:GdaxTradePair	access:public
+~TradePair	TradePair.h	20;"	p	class:TradePair	access:public
+~client_gdax	client_gdax.h	96;"	p	class:client_gdax	access:public

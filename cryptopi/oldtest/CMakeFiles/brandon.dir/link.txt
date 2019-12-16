@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/brandon.dir/brandon.cpp.o  -o brandon -lbittrex -lcurl -lcrypto -lpthread /usr/lib/arm-linux-gnueabihf/libboost_unit_test_framework.so 

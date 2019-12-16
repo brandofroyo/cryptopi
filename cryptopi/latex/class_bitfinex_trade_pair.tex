@@ -1,0 +1,134 @@
+\hypertarget{class_bitfinex_trade_pair}{}\section{Bitfinex\+Trade\+Pair Class Reference}
+\label{class_bitfinex_trade_pair}\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bitfinex_trade_pair_a1d82651543f1facdff8fecb86efdf718}\label{class_bitfinex_trade_pair_a1d82651543f1facdff8fecb86efdf718}} 
+\mbox{\hyperlink{class_bitfinex_trade_pair_a1d82651543f1facdff8fecb86efdf718}{Bitfinex\+Trade\+Pair}} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bitfinex_trade_pair_ad2a01ffb120afa0939d8d41dc6e34686}\label{class_bitfinex_trade_pair_ad2a01ffb120afa0939d8d41dc6e34686}} 
+\mbox{\hyperlink{class_bitfinex_trade_pair_ad2a01ffb120afa0939d8d41dc6e34686}{$\sim$\+Bitfinex\+Trade\+Pair}} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_bitfinex_trade_pair_a2c772425f29358b17e38f2c35fcdb69f}{pair\+Convert}} (std\+::string str)
+\item 
+std\+::string \mbox{\hyperlink{class_bitfinex_trade_pair_ac00dfde40f1d2a1d00bf8054d442bfac}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em returns the name \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_bitfinex_trade_pair_a5e9752e1d32db469a3ce368bc1de2886}{fetch\+Volume}} ()
+\item 
+double \mbox{\hyperlink{class_bitfinex_trade_pair_ac87f08ef5793dbb17b04798227400aab}{fetch\+Volume\+Change}} ()
+\begin{DoxyCompactList}\small\item\em returns the volume change by creating a new volume first \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_bitfinex_trade_pair_aa0e8da551d808f9d64be6f322120777e}{get\+Volume}} ()
+\begin{DoxyCompactList}\small\item\em returns the volume \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bitfinex_trade_pair_a0fd67bf84f3221538bbceb434a603f34}{set\+Volume}} (double vol)
+\begin{DoxyCompactList}\small\item\em sets the volume \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_bitfinex_trade_pair_a6ae365c882e5950c87fbfba9058b24ac}{fetch\+Price}} ()
+\item 
+double \mbox{\hyperlink{class_bitfinex_trade_pair_ac28554bdf8f8397e8d751c792aebf948}{fetch\+Price\+Change}} ()
+\begin{DoxyCompactList}\small\item\em returns the price change by creating a new price first \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_bitfinex_trade_pair_a4dc226e8c0dcadbb0ea39381428721a6}{get\+Price}} ()
+\begin{DoxyCompactList}\small\item\em returns the price \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bitfinex_trade_pair_ada35f305bafd57ad58cabf20241bec7f}{set\+Price}} (double pri)
+\begin{DoxyCompactList}\small\item\em sets the price \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bitfinex_trade_pair_aad9f3bb5f4015f3e9b87556ad33f46d7}\label{class_bitfinex_trade_pair_aad9f3bb5f4015f3e9b87556ad33f46d7}} 
+std\+::ostream \& \mbox{\hyperlink{class_bitfinex_trade_pair_aad9f3bb5f4015f3e9b87556ad33f46d7}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_bitfinex_trade_pair}{Bitfinex\+Trade\+Pair}} \&vp)
+\begin{DoxyCompactList}\small\item\em simple method to return output as ostream \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bitfinex_trade_pair_a6ae365c882e5950c87fbfba9058b24ac}\label{class_bitfinex_trade_pair_a6ae365c882e5950c87fbfba9058b24ac}} 
+\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}!fetch\+Price@{fetch\+Price}}
+\index{fetch\+Price@{fetch\+Price}!Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{fetch\+Price()}{fetchPrice()}}
+{\footnotesize\ttfamily double Bitfinex\+Trade\+Pair\+::fetch\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+this function will get us the price from the bitfinex library this library however return the information as a string which means that we have to use boost and get whatever we went out of that string \mbox{\Hypertarget{class_bitfinex_trade_pair_ac28554bdf8f8397e8d751c792aebf948}\label{class_bitfinex_trade_pair_ac28554bdf8f8397e8d751c792aebf948}} 
+\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}!fetch\+Price\+Change@{fetch\+Price\+Change}}
+\index{fetch\+Price\+Change@{fetch\+Price\+Change}!Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{fetch\+Price\+Change()}{fetchPriceChange()}}
+{\footnotesize\ttfamily double Bitfinex\+Trade\+Pair\+::fetch\+Price\+Change (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the price change by creating a new price first 
+
+this function will get a new price and then divide our old price by the new price to get price change \mbox{\Hypertarget{class_bitfinex_trade_pair_a5e9752e1d32db469a3ce368bc1de2886}\label{class_bitfinex_trade_pair_a5e9752e1d32db469a3ce368bc1de2886}} 
+\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}!fetch\+Volume@{fetch\+Volume}}
+\index{fetch\+Volume@{fetch\+Volume}!Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{fetch\+Volume()}{fetchVolume()}}
+{\footnotesize\ttfamily double Bitfinex\+Trade\+Pair\+::fetch\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+this function will get us the volume from the bitfinex library this library however return the information as a string which means that we have to use boost and get whatever we went out of that string \mbox{\Hypertarget{class_bitfinex_trade_pair_ac87f08ef5793dbb17b04798227400aab}\label{class_bitfinex_trade_pair_ac87f08ef5793dbb17b04798227400aab}} 
+\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}!fetch\+Volume\+Change@{fetch\+Volume\+Change}}
+\index{fetch\+Volume\+Change@{fetch\+Volume\+Change}!Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{fetch\+Volume\+Change()}{fetchVolumeChange()}}
+{\footnotesize\ttfamily double Bitfinex\+Trade\+Pair\+::fetch\+Volume\+Change (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the volume change by creating a new volume first 
+
+this function will return the volume change by geting a new volume and dividing it by old volume \mbox{\Hypertarget{class_bitfinex_trade_pair_ac00dfde40f1d2a1d00bf8054d442bfac}\label{class_bitfinex_trade_pair_ac00dfde40f1d2a1d00bf8054d442bfac}} 
+\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily std\+::string Bitfinex\+Trade\+Pair\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the name 
+
+this function returns the name of the trade pair \mbox{\Hypertarget{class_bitfinex_trade_pair_a4dc226e8c0dcadbb0ea39381428721a6}\label{class_bitfinex_trade_pair_a4dc226e8c0dcadbb0ea39381428721a6}} 
+\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}!get\+Price@{get\+Price}}
+\index{get\+Price@{get\+Price}!Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{get\+Price()}{getPrice()}}
+{\footnotesize\ttfamily double Bitfinex\+Trade\+Pair\+::get\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the price 
+
+returns price \mbox{\Hypertarget{class_bitfinex_trade_pair_aa0e8da551d808f9d64be6f322120777e}\label{class_bitfinex_trade_pair_aa0e8da551d808f9d64be6f322120777e}} 
+\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}!get\+Volume@{get\+Volume}}
+\index{get\+Volume@{get\+Volume}!Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{get\+Volume()}{getVolume()}}
+{\footnotesize\ttfamily double Bitfinex\+Trade\+Pair\+::get\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns the volume 
+
+this function returns the volume of the trade pair \mbox{\Hypertarget{class_bitfinex_trade_pair_a2c772425f29358b17e38f2c35fcdb69f}\label{class_bitfinex_trade_pair_a2c772425f29358b17e38f2c35fcdb69f}} 
+\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}!pair\+Convert@{pair\+Convert}}
+\index{pair\+Convert@{pair\+Convert}!Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{pair\+Convert()}{pairConvert()}}
+{\footnotesize\ttfamily std\+::string Bitfinex\+Trade\+Pair\+::pair\+Convert (\begin{DoxyParamCaption}\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+this function will change the input into an acceptable input for bitfinex since bitfinux only accepts input as \char`\"{}btcusd\char`\"{} type and we only use \char`\"{}\+B\+T\+C-\/\+U\+S\+D\char`\"{} we need to change the input for bitfiniex to retrieve the information \mbox{\Hypertarget{class_bitfinex_trade_pair_ada35f305bafd57ad58cabf20241bec7f}\label{class_bitfinex_trade_pair_ada35f305bafd57ad58cabf20241bec7f}} 
+\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}!set\+Price@{set\+Price}}
+\index{set\+Price@{set\+Price}!Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{set\+Price()}{setPrice()}}
+{\footnotesize\ttfamily void Bitfinex\+Trade\+Pair\+::set\+Price (\begin{DoxyParamCaption}\item[{double}]{pri }\end{DoxyParamCaption})}
+
+
+
+sets the price 
+
+sets price \mbox{\Hypertarget{class_bitfinex_trade_pair_a0fd67bf84f3221538bbceb434a603f34}\label{class_bitfinex_trade_pair_a0fd67bf84f3221538bbceb434a603f34}} 
+\index{Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}!set\+Volume@{set\+Volume}}
+\index{set\+Volume@{set\+Volume}!Bitfinex\+Trade\+Pair@{Bitfinex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{set\+Volume()}{setVolume()}}
+{\footnotesize\ttfamily void Bitfinex\+Trade\+Pair\+::set\+Volume (\begin{DoxyParamCaption}\item[{double}]{vol }\end{DoxyParamCaption})}
+
+
+
+sets the volume 
+
+this function sets the volume of the trade pair 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Bitfinex\+Trade\+Pair.\+h\item 
+Bitfinex\+Trade\+Pair.\+cpp\end{DoxyCompactItemize}

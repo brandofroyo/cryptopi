@@ -1,0 +1,29 @@
+graph G {
+	graph [bb="-139.6,-100.33,274.35,67.85"];
+	node [label="\N"];
+	WApplication	 [height=0.5,
+		pos="141.4,-11.68",
+		width=1.6971];
+	CryptoPiMain	 [height=0.5,
+		pos="212.6,-22.32",
+		width=1.7151];
+	WApplication -- CryptoPiMain	 [pos="196.09,-19.852 196.24,-19.874 196.39,-19.897 196.54,-19.919"];
+	BittrexTradePair	 [height=0.5,
+		pos="-70.053,-30.527",
+		width=1.9318];
+	TradePair	 [height=0.5,
+		pos="6.1368,-20.991",
+		width=1.2638];
+	BittrexTradePair -- TradePair	 [pos="-7.1344,-22.652 -7.011,-22.637 -6.8883,-22.621 -6.7662,-22.606",
+		style=dotted];
+	BitfinexTradePair	 [height=0.5,
+		pos="52.254,-82.332",
+		width=2.0582];
+	BitfinexTradePair -- TradePair	 [pos="38.915,-64.589 32.743,-56.38 25.435,-46.659 19.286,-38.482",
+		style=dotted];
+	GdaxTradePair	 [height=0.5,
+		pos="35.662,49.85",
+		width=1.7873];
+	GdaxTradePair -- TradePair	 [pos="28.058,31.607 23.616,20.948 18.032,7.5508 13.612,-3.0549",
+		style=dotted];
+}

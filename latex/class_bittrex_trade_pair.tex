@@ -1,0 +1,71 @@
+\hypertarget{class_bittrex_trade_pair}{}\section{Bittrex\+Trade\+Pair Class Reference}
+\label{class_bittrex_trade_pair}\index{Bittrex\+Trade\+Pair@{Bittrex\+Trade\+Pair}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bittrex_trade_pair_ab6da87febee0387eb320553ccd0dc4ce}\label{class_bittrex_trade_pair_ab6da87febee0387eb320553ccd0dc4ce}} 
+\mbox{\hyperlink{class_bittrex_trade_pair_ab6da87febee0387eb320553ccd0dc4ce}{Bittrex\+Trade\+Pair}} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bittrex_trade_pair_a13b7e834b50ce3b7f773a40d7a4828a6}\label{class_bittrex_trade_pair_a13b7e834b50ce3b7f773a40d7a4828a6}} 
+\mbox{\hyperlink{class_bittrex_trade_pair_a13b7e834b50ce3b7f773a40d7a4828a6}{$\sim$\+Bittrex\+Trade\+Pair}} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bittrex_trade_pair_aabb1730857c694a64b15eaf5824ec72a}\label{class_bittrex_trade_pair_aabb1730857c694a64b15eaf5824ec72a}} 
+std\+::string \mbox{\hyperlink{class_bittrex_trade_pair_aabb1730857c694a64b15eaf5824ec72a}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em getters and setters \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_bittrex_trade_pair_a314efdd2917c88f48cd521dacf4eed85}{fetch\+Volume}} ()
+\begin{DoxyCompactList}\small\item\em to grab the volume for a specific pair passed in by the front end \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bittrex_trade_pair_afd555c5ae36025d25964350c50f1006a}\label{class_bittrex_trade_pair_afd555c5ae36025d25964350c50f1006a}} 
+double \mbox{\hyperlink{class_bittrex_trade_pair_afd555c5ae36025d25964350c50f1006a}{fetch\+Volume\+Change}} ()
+\begin{DoxyCompactList}\small\item\em creates new volume then compares to old volume to get volume change \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bittrex_trade_pair_ac3e959d5d6aa90c9126e8f31c1b8d6f8}\label{class_bittrex_trade_pair_ac3e959d5d6aa90c9126e8f31c1b8d6f8}} 
+double {\bfseries get\+Volume} ()
+\item 
+\mbox{\Hypertarget{class_bittrex_trade_pair_a40f9c9ff6618e1a170820bd60daeaa0f}\label{class_bittrex_trade_pair_a40f9c9ff6618e1a170820bd60daeaa0f}} 
+void {\bfseries set\+Volume} (double vol)
+\item 
+double \mbox{\hyperlink{class_bittrex_trade_pair_a74564273a0a56f63a8737fbb4b0dc2e5}{fetch\+Price}} ()
+\begin{DoxyCompactList}\small\item\em to grab the volume for a specific pair passed in by the front end \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bittrex_trade_pair_add7f130337294db2b56ce2fbcc669c90}\label{class_bittrex_trade_pair_add7f130337294db2b56ce2fbcc669c90}} 
+double \mbox{\hyperlink{class_bittrex_trade_pair_add7f130337294db2b56ce2fbcc669c90}{fetch\+Price\+Change}} ()
+\begin{DoxyCompactList}\small\item\em creates a new price then compares to old price to get price change \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bittrex_trade_pair_af0a18d8b1cc841b657a474ea071e9778}\label{class_bittrex_trade_pair_af0a18d8b1cc841b657a474ea071e9778}} 
+double {\bfseries get\+Price} ()
+\item 
+\mbox{\Hypertarget{class_bittrex_trade_pair_a59673b3475518b65d45651b2a1b0f581}\label{class_bittrex_trade_pair_a59673b3475518b65d45651b2a1b0f581}} 
+void {\bfseries set\+Price} (double pri)
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bittrex_trade_pair_a1fc3a2979f802733275f0d907c8ddcb6}\label{class_bittrex_trade_pair_a1fc3a2979f802733275f0d907c8ddcb6}} 
+std\+::ostream \& \mbox{\hyperlink{class_bittrex_trade_pair_a1fc3a2979f802733275f0d907c8ddcb6}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_bittrex_trade_pair}{Bittrex\+Trade\+Pair}} \&vp)
+\begin{DoxyCompactList}\small\item\em returns our price and volume as an ostream \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bittrex_trade_pair_a74564273a0a56f63a8737fbb4b0dc2e5}\label{class_bittrex_trade_pair_a74564273a0a56f63a8737fbb4b0dc2e5}} 
+\index{Bittrex\+Trade\+Pair@{Bittrex\+Trade\+Pair}!fetch\+Price@{fetch\+Price}}
+\index{fetch\+Price@{fetch\+Price}!Bittrex\+Trade\+Pair@{Bittrex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{fetch\+Price()}{fetchPrice()}}
+{\footnotesize\ttfamily double Bittrex\+Trade\+Pair\+::fetch\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+to grab the volume for a specific pair passed in by the front end 
+
+this function gets the price from the public library the key and secret are not used but needed to compile the code we dont use them because we dont need identification since we are not trading summary creates the object of type summary and then vol gets exactly what we want from that summary then returns it \mbox{\Hypertarget{class_bittrex_trade_pair_a314efdd2917c88f48cd521dacf4eed85}\label{class_bittrex_trade_pair_a314efdd2917c88f48cd521dacf4eed85}} 
+\index{Bittrex\+Trade\+Pair@{Bittrex\+Trade\+Pair}!fetch\+Volume@{fetch\+Volume}}
+\index{fetch\+Volume@{fetch\+Volume}!Bittrex\+Trade\+Pair@{Bittrex\+Trade\+Pair}}
+\subsubsection{\texorpdfstring{fetch\+Volume()}{fetchVolume()}}
+{\footnotesize\ttfamily double Bittrex\+Trade\+Pair\+::fetch\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+to grab the volume for a specific pair passed in by the front end 
+
+this function gets the volume from the public library the key and secret are not used but needed to compile the code we dont use them because we dont need identification since we are not trading summary creates the object of type summary and then vol gets exactly what we want from that summary then returns it 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Bittrex\+Trade\+Pair.\+h\item 
+Bittrex\+Trade\+Pair.\+cpp\end{DoxyCompactItemize}

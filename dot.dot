@@ -1,0 +1,7 @@
+graph G {
+	WApplication -- CryptoPiMain;
+	BittrexTradePair -- TradePair [style=dotted];
+	BitfinexTradePair -- TradePair [style=dotted];
+	GdaxTradePair -- TradePair [style=dotted];
+}
+

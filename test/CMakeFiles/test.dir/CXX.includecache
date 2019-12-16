@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/moselhy/cryptopi/test/TradePair.h
+iostream
+-
+libbittrex/client.h
+-
+
+/home/moselhy/cryptopi/test/test.cpp
+boost/test/included/unit_test.hpp
+-
+TradePair.h
+/home/moselhy/cryptopi/test/TradePair.h
+

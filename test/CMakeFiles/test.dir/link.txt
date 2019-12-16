@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/test.dir/test.cpp.o CMakeFiles/test.dir/TradePair.cpp.o  -o test -lbittrex -lcurl -lcrypto -lpthread /usr/lib/arm-linux-gnueabihf/libboost_unit_test_framework.so 
